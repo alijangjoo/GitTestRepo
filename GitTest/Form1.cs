@@ -21,7 +21,7 @@ namespace GitTest
         {
             // Add Comment Here
             MessageBox.Show("This is message!");
-
+            Utilities.GetTrue();
             // Add Comment End of Event
         }
     }
