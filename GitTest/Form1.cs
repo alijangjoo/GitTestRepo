@@ -23,6 +23,8 @@ namespace GitTest
             MessageBox.Show("This is message!");
             Utilities.GetTrue();
             // Add Comment End of Event
+            Logger logger = new Logger();
+            logger.Log("Form1_Load Complete");
         }
     }
 }
